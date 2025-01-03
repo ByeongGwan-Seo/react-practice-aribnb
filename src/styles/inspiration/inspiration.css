@@ -1,0 +1,22 @@
+.inspiration-container {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  gap: 48px;
+}
+
+.inspiration-container h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.inspiration-card-row {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
