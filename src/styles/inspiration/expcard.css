@@ -1,0 +1,54 @@
+.exp-card-container {
+  width: 628px;
+  height: 628px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.exp-card-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exp-card-desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 80px;
+  width: 80%;
+  color: white;
+  z-index: 2;
+  border-radius: 8px;
+}
+
+.exp-desc {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.exp-desc-button {
+  margin-top: 24px;
+  padding: 16px 24px;
+  gap: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px #1f293714;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background: var(--background-white);
+  color: var(--text-black);
+}

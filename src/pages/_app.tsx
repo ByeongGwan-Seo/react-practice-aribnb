@@ -5,6 +5,9 @@ import "../styles/nav/bnbsearch.css";
 import "../styles/nav/bnbhomeimage.css";
 import "../styles/inspiration/citycard.css";
 import "../styles/inspiration/inspiration.css";
+import "../styles/inspiration/expcard.css";
+import "../styles/inspiration/giftcard.css";
+
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import InspirationCitycard from "./InspirationCitycard";
+import InspirationExpCard from "./InspirationExpCard";
 
 const Inspiration: React.FC = () => {
   return (
@@ -30,6 +31,20 @@ const Inspiration: React.FC = () => {
             cityImage="/images/inspiration/Rectangle 4.png"
             cityDesc="130"
             backgroundColor="#D93B30"
+          />
+        </div>
+
+        <h1>Discover Airbnb Experiences</h1>
+        <div className="inspiration-card-row">
+          <InspirationExpCard
+            expDesc="Things to do on your trip"
+            expButtonTxt="Experiences"
+            expImage="/images/inspiration/exp-image-1.jpeg"
+          />
+          <InspirationExpCard
+            expDesc="Things to do from home"
+            expButtonTxt="Online Experiences"
+            expImage="/images/inspiration/exp-image-2.jpeg"
           />
         </div>
       </div>
