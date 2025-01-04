@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: column;
   width: 1280px;
-  gap: 48px;
+  gap: 96px;
 }
 
-.inspiration-container h1 {
+.inspiration-title {
   font-family: Inter;
   font-size: 36px;
   font-weight: 500;
   line-height: 44px;
   text-align: left;
+  margin-bottom: -48px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }

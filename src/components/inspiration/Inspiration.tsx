@@ -1,12 +1,13 @@
 import React from "react";
 import InspirationCitycard from "./InspirationCitycard";
 import InspirationExpCard from "./InspirationExpCard";
+import InspirationGiftCard from "./InspirationGiftCard";
 
 const Inspiration: React.FC = () => {
   return (
     <>
       <div className="inspiration-container">
-        <h1>Inspiration for your next trip</h1>
+        <h1 className="inspiration-title">Inspiration for your next trip</h1>
         <div className="inspiration-card-row">
           <InspirationCitycard
             cityName="Nashville"
@@ -34,7 +35,7 @@ const Inspiration: React.FC = () => {
           />
         </div>
 
-        <h1>Discover Airbnb Experiences</h1>
+        <h1 className="inspiration-title">Discover Airbnb Experiences</h1>
         <div className="inspiration-card-row">
           <InspirationExpCard
             expDesc="Things to do on your trip"
@@ -47,6 +48,11 @@ const Inspiration: React.FC = () => {
             expImage="/images/inspiration/exp-image-2.jpeg"
           />
         </div>
+        <InspirationGiftCard
+          giftDesc="Shop Airbnb gift cards"
+          giftBtnTxt="Learn more"
+          giftImg="/images/inspiration/giftcards.png"
+        />
       </div>
     </>
   );
