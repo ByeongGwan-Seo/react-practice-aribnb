@@ -7,6 +7,7 @@ import "../styles/inspiration/citycard.css";
 import "../styles/inspiration/inspiration.css";
 import "../styles/inspiration/expcard.css";
 import "../styles/inspiration/giftcard.css";
+import "../styles/inspiration/askhost.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
