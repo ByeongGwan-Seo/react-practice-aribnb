@@ -2,6 +2,7 @@ import React from "react";
 import InspirationCitycard from "./InspirationCitycard";
 import InspirationExpCard from "./InspirationExpCard";
 import InspirationGiftCard from "./InspirationGiftCard";
+import InspirationAskHost from "./InspirationAskHost";
 
 const Inspiration: React.FC = () => {
   return (
@@ -52,6 +53,11 @@ const Inspiration: React.FC = () => {
           giftDesc="Shop Airbnb gift cards"
           giftBtnTxt="Learn more"
           giftImg="/images/inspiration/giftcards.png"
+        />
+        <InspirationAskHost
+          askImage="/images/inspiration/ask-image.jpg"
+          askBtnTxt="Ask a Superhost"
+          askDesc="Questions about hosting?"
         />
       </div>
     </>
