@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 64px 80px 24px 80px;
+  gap: 48px;
+}
+
+.footer-container-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1280px;
+  gap: 20px;
+}
