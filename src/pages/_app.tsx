@@ -8,6 +8,9 @@ import "../styles/inspiration/inspiration.css";
 import "../styles/inspiration/expcard.css";
 import "../styles/inspiration/giftcard.css";
 import "../styles/inspiration/askhost.css";
+import "../styles/inspiration/prefooter/prefootercell.css";
+import "../styles/inspiration/prefooter/prefooterrow.css";
+import "../styles/inspiration/prefooter/prefooterheader.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
