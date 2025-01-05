@@ -3,6 +3,7 @@ import InspirationCitycard from "./InspirationCitycard";
 import InspirationExpCard from "./InspirationExpCard";
 import InspirationGiftCard from "./InspirationGiftCard";
 import InspirationAskHost from "./InspirationAskHost";
+import Prefooter from "./pre-footer/PreFooter";
 
 const Inspiration: React.FC = () => {
   return (
@@ -59,6 +60,7 @@ const Inspiration: React.FC = () => {
           askBtnTxt="Ask a Superhost"
           askDesc="Questions about hosting?"
         />
+        <Prefooter />
       </div>
     </>
   );

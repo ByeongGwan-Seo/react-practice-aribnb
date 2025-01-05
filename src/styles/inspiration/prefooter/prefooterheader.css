@@ -1,0 +1,31 @@
+.prefooter-header-container {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 10px;
+  box-shadow: 0px -1px 0px 0px #f3f4f6 inset;
+}
+
+.prefooter-header-container p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.active-tab {
+  font-weight: bold;
+  box-shadow: 0px -1px 0px 0px #000000 inset;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+.inactive-tab {
+  color: #6b7280;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
